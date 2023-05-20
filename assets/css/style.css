@@ -55,18 +55,6 @@ ul{
     margin-left: auto;
 
 }
-@media (max-width: 992px){
-.container {
-    max-width: 960px;
-}}
-@media (max-width: 768px){
-.container {
-    max-width: 720px;
-}}
-@media (max-width: 576px){
-.container {
-    max-width: 540px;
-}}
 
 section{
     padding: 70px 0px;
@@ -82,16 +70,17 @@ section{
 }
 
 .col-4{
-    width: 33%;
+    width: 35%;
     display: inline-block;
 float: left;
 margin-top: 16px;
 margin-bottom: 16px;
 padding-right: 28px;
+
 }
 
 .col-6{
-   width: 67%;
+   width: 65%;
     display: inline-block;
 float: left;
 margin-top: 16px;
@@ -99,11 +88,7 @@ margin-bottom: 16px;
 margin-left: 0px;
 padding: 0%;
 }
-.col-7{
-    width: 70%;
-    display: inline-block;
-    float: left;
-}
+
 
 #top{
     padding: 0px;
@@ -339,6 +324,12 @@ left: 42px;
 right: 120px;
 
 }
+
+/*--about--*/
+
+
+
+
 /*-services-*/
 
 
@@ -359,12 +350,7 @@ right: 120px;
     padding-right: 15px;
     padding-left: 15px;
 }
-@media (min-width: 768px){
-.col-md-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-}}
+
 .description-service{
     box-sizing :border-box;
     color :rgb(153, 153, 153);
@@ -477,9 +463,9 @@ font-size: 14px;
 font-weight :400;
 text-align: center;
 }
+/*--/services*--/
 
-
-/*-gallery-*/
+/*-portifolia-*/
 .gallery-menu{
     display: -ms-flexbox;
     display: flex;
@@ -514,7 +500,10 @@ text-align :center;
 width :720px;
 
 }
-/*--/services--*/
+/*--portifolio--*/
+
+
+
 /*-testimonials-*/
 .owl-carousel.owl-loaded {
     display: block;
@@ -548,14 +537,6 @@ width :720px;
     font-size: 18px;
     line-height: 33px;
     margin: 0;
-}
-.testimon{
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0px 0px;
 }
 
 
@@ -742,18 +723,7 @@ z-index: 1;
     object-fit: cover;
 
 }
-@media (min-width: 768px){
-.col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}}
-@media (min-width: 576px){
-.col-sm-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}}
+
 .col-sm-12{
     position: relative;
     width: 100%;
@@ -802,12 +772,7 @@ z-index: 1;
 .contact{
     background-color: black;
 }
-@media (min-width: 768px){
-.col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}}
+
 .col-md-12{
     position: relative;
     width: 100%;
@@ -821,12 +786,7 @@ z-index: 1;
     background-color: transparent;
     padding: 40px 30px;
 }
-@media (min-width: 768px){
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
+
 .col-md-6{
     position: relative;
     width: 100%;
@@ -873,12 +833,7 @@ textarea {
     padding-left: 15px;
     text-align: center ;
 }
-@media (min-width: 992px){
-.col-lg-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}}
+
 .btn-new {
     position: relative;
     padding: 11px 25px;
@@ -904,12 +859,7 @@ textarea {
     padding-right: 15px;
     padding-left: 15px;
 }
-@media (min-width: 768px){
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
+
 .message-box h2 {
     font-size: 38px;
     font-weight: 500;
@@ -919,3 +869,70 @@ textarea {
     margin-top: 0;
     text-transform: none;
 }
+
+
+
+
+/*--*/
+@media (min-width: 992px){
+    .col-lg-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }}
+@media (min-width: 768px){
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }}
+@media (min-width: 768px){
+.col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}}
+@media (min-width: 768px){
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }}
+    @media (min-width: 768px){
+        .col-md-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }}
+
+        @media (min-width: 768px){
+            .col-md-12 {
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }}
+            @media (min-width: 576px){
+            .col-sm-12 {
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }}
+            @media (max-width: 576px){
+            .col-sm-6 {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+            }}
+            @media (max-width: 992px){
+                .container {
+                    max-width: 960px;
+                }}
+                @media (max-width: 768px){
+                .container {
+                    max-width: 720px;
+                }}
+                @media (max-width: 576px){
+                .container {
+                    max-width: 540px;
+                }}
+                
