@@ -111,13 +111,13 @@ padding: 0%;
 .menu-box .menu-list{
     padding: 0px;
 }
-.menu-box .menu-list .list-itemss{
+.menu-box .menu-list .list-items{
     display: inline-block;
 float: left;
 margin-bottom: 16px;
 margin-top: 25px;
 }
-.menu-box .menu-list .list-itemss .menu-active{
+.menu-box .menu-list .list-items .menu-active{
     
     letter-spacing: 1px;
     font-size: 14px;
@@ -136,7 +136,7 @@ margin-top: 25px;
     text-decoration: none;
    
 }
-.menu-box .menu-list .list-itemss .menu:active{
+.menu-box .menu-list .list-items .menu:active{
     
     letter-spacing: 1px;
     font-size: 14px;
@@ -155,7 +155,7 @@ margin-top: 25px;
     text-decoration: none;
 }
 
-.menu-box .menu-list .list-itemss .menu{
+.menu-box .menu-list .list-items .menu{
     text-transform: uppercase;
     color: #292929;
     letter-spacing: 1px;
@@ -165,7 +165,7 @@ margin-top: 25px;
     border-radius: 50px;
     font-family: sans-serif;
 }
-.menu-box .menu-list .list-itemss .menu:hover{
+.menu-box .menu-list .list-items .menu:hover{
     text-transform: uppercase;
     
     
